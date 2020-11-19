@@ -1,0 +1,69 @@
+{
+    "source": "mockoon:1.7.0",
+    "data": [
+        {
+            "type": "environment",
+            "item": {
+                "uuid": "",
+                "lastMigration": 9,
+                "name": "Error messages",
+                "endpointPrefix": "",
+                "latency": 0,
+                "port": 3002,
+                "routes": [
+                    {
+                        "uuid": "",
+                        "documentation": "",
+                        "method": "get",
+                        "endpoint": "messages",
+                        "responses": [
+                            {
+                                "uuid": "",
+                                "body": "[\n    {\"title\":\"design error\",\"date\":\"2020-03-20\",\"body\":\"There seems to be some error in the design, parts are missing.\"},\n    {\"title\":\"page is slow\",\"date\":\"2020-03-08\",\"body\":\"Takes a long time rendering the elements.\"},\n    {\"title\":\"weird bodys\",\"date\":\"2020-03-02\",\"body\":\"Weird error is displayed on the page\"},\n    {\"title\":\"page crashes\",\"date\":\"2020-03-13\",\"body\":\"Page crashes when selecting to many options\"},\n    {\"title\":\"not responsinble design\",\"date\":\"2020-03-14\",\"body\":\"The pages does not look good on a mobile device\"},\n    {\"title\":\"navigation error\",\"date\":\"2020-03-01\",\"body\":\"The navigation is not sending the user to the expectedpages\"},\n    {\"title\":\"add link broken\",\"date\":\"2020-03-16\",\"body\":\"The add links sends the user to a page that doesent exist http500\"},\n    {\"title\":\"trouble loging in\",\"date\":\"2020-03-17\",\"body\":\"Sometimes during the day the login function isn't working getting 'try again later!'\"},\n    {\"title\":\"trouble registering\",\"date\":\"2020-03-25\",\"body\":\"Rregister new accound does not seem to work getting 'try again later!'\"},\n    {\"title\":\"unable to submit\",\"date\":\"2020-03-22\",\"body\":\"Posting a body does nothing\"}\n]\n",
+                                "latency": 0,
+                                "statusCode": "200",
+                                "label": "",
+                                "headers": [
+                                    {
+                                        "key": "",
+                                        "value": ""
+                                    },
+                                    {
+                                        "key": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": []
+                            }
+                        ],
+                        "enabled": true
+                    }
+                ],
+                "proxyMode": false,
+                "proxyHost": "",
+                "https": false,
+                "cors": true,
+                "headers": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    },
+                    {
+                        "key": "Access-Control-Allow-Origin",
+                        "value": "*"
+                    },
+                    {
+                        "key": "Access-Control-Allow-Methods",
+                        "value": "GET,POST,PUT,PATCH,DELETE,HEAD,OPTIONS"
+                    },
+                    {
+                        "key": "Access-Control-Allow-Headers",
+                        "value": "Content-Type, Origin, Accept, Authorization, Content-Length, X-Requested-With"
+                    }
+                ]
+            }
+        }
+    ]
+}
